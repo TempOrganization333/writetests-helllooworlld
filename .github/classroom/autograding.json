@@ -1,23 +1,14 @@
 {
-    "tests": [
-      {
-        "name": "Test 1",
-        "run": "./build/testing hi",
-        "timeout": 2,
-        "points": 10
-      },
-      {
-        "name": "Test 2",
-        "run": "./build/testing bye",
-        "timeout": 2,
-        "points": 10
-      },
-      {
-        "name": "Test 3",
-        "run": "./build/testing hi",
-        "timeout": 2,
-        "points": 20
-      }
-    
-    ]
+  "tests": [
+    {
+      "name": "GUI TEST",
+      "setup": "",
+      "run": "./build/testing hi",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 200
+    }
+  ]
 }
